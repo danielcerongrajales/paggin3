@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.androidpagging.app-mergeDebugResources-45:/layout/activity_main.xml",
+        "source": "com.example.androidpagging.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/danielcerongrajales/.gradle/daemon/8.11.1/com.example.androidpagging.app-mergeDebugResources-45:/layout/activity_main.xml",
+        "source": "/Users/danielcerongrajales/.gradle/daemon/8.11.1/com.example.androidpagging.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/danielcerongrajales/.gradle/daemon/8.11.1/com.example.androidpagging.app-mergeDebugResources-45:/layout/item_quote_layout.xml",
+        "source": "/Users/danielcerongrajales/.gradle/daemon/8.11.1/com.example.androidpagging.app-main-48:/layout/item_quote_layout.xml"
+    }
+]
