@@ -1,0 +1,55 @@
+[versions]
+android_gradle_plugin = "8.9.2"
+ksp = "2.1.20-1.0.32"
+kotlin = "2.1.20"
+hilt = "2.52"
+lifecycleViewmodelKtx = "2.8.7"
+retrofit = "2.9.0"
+room = "2.7.1"
+coroutines = "1.8.0"
+paging = "3.3.6"
+compose_bom = "2025.04.01"
+coil = "2.5.0"
+appcompat = "1.7.0"
+core_ktx = "1.16.0"
+constraintlayout = "2.2.1"
+fragment_ktx = "1.8.6"
+material = "1.12.0"
+activity_compose = "1.10.1"
+
+[plugins]
+android_application = { id = "com.android.application", version.ref = "android_gradle_plugin" }
+android_library = { id = "com.android.library", version.ref = "android_gradle_plugin" }
+kotlin_android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin_plugin_compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+hilt_plugin = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+
+[libraries]
+kotlin_stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+core_ktx = { module = "androidx.core:core-ktx", version.ref = "core_ktx" }
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleViewmodelKtx" }
+lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleViewmodelKtx" }
+lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+fragment_ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragment_ktx" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit_converter = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+hilt = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt_compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
+room_runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+room_ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+room_compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+coroutines_core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+coroutines_android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+paging_runtime = { module = "androidx.paging:paging-runtime", version.ref = "paging" }
+compose_bom = { module = "androidx.compose:compose-bom", version.ref = "compose_bom" }
+activity_compose = { module = "androidx.activity:activity-compose", version.ref = "activity_compose" }
+compose_ui = { group = "androidx.compose.ui", name = "ui" }
+compose_material3 = { group = "androidx.compose.material3", name = "material3" }
+compose_ui_tooling_preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+compose_animation = { group = "androidx.compose.animation", name = "animation" }
+compose_ui_tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+coil_compose = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
